@@ -90,7 +90,7 @@ section::after{
 .last-section{
     background-image: url("images/beckground.png");
     background-repeat: no-repeat;
-    margin: 40% 10% 5% 10%;
+    margin: 60% 10% 5% 10%;
     background-size: 100% 100%;
     background-position: center;
     width: 80%;
@@ -109,8 +109,10 @@ section::after{
     text-align: center;
 }
 .football{
+    margin-top: 10%;
     text-align: center;
-    color:#fa640e;   
+    color:#fa640e;
+    font-size: 45px;  
 }
 .football-m{
     text-align: center;
@@ -140,4 +142,7 @@ button{
     padding: 5px;
     border: 3px solid rgb(70, 32, 71);
     border-radius: 7px;
+}
+.voting{
+    margin: 5px
 }
